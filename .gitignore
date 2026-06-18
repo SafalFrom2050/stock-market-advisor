@@ -1,0 +1,23 @@
+# Dependencies and generated output
+node_modules/
+coverage/
+dist/
+*.log
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+
+# Private investment data and generated reports
+data/private/
+data/imports/
+reports/private/
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

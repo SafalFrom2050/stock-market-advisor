@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "asOf": "2026-06-18T09:00:00+09:00",
+  "theses": [
+    {
+      "positionId": "US:CORE-ETF",
+      "ticker": "CORE-ETF",
+      "status": "ACTIVE",
+      "summary": "Diversified long-term portfolio core.",
+      "lastReviewedAt": "2026-06-01",
+      "nextReviewDueAt": "2026-12-31",
+      "killCriteria": [
+        "The fund no longer provides the expected broad diversification."
+      ]
+    },
+    {
+      "positionId": "US:BIO-DEMO",
+      "ticker": "BIO-DEMO",
+      "status": "WATCH",
+      "summary": "Illustrative pre-revenue biotechnology position.",
+      "lastReviewedAt": "2026-05-01",
+      "nextReviewDueAt": "2026-06-01",
+      "killCriteria": [
+        "Primary clinical endpoint failure.",
+        "Material safety signal.",
+        "Cash runway falls below the next value-creating milestone."
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "baseCurrency": "JPY",
+  "timezone": "Asia/Tokyo",
+  "mode": "research_only",
+  "humanApprovalRequired": true,
+  "allowLeverage": false,
+  "allowOptions": false,
+  "allowShortSelling": false,
+  "japanSingleStocks": "opt_in",
+  "limits": {
+    "maxSinglePositionPct": 8,
+    "maxDiversifiedFundPct": 80,
+    "maxSectorPct": 25,
+    "maxSpeculativePct": 10,
+    "minimumCashPct": 5,
+    "maxForeignCurrencyPct": 85,
+    "riskGroupLimitsPct": {
+      "SPECULATIVE_BIOTECH": 10,
+      "BINARY_EVENT": 10,
+      "AI_INFRASTRUCTURE": 25
+    }
+  },
+  "alerts": {
+    "warnDrawdownPct": 15,
+    "criticalDrawdownPct": 25,
+    "costBasisLossReviewPct": 20,
+    "stalePriceHours": 36,
+    "reviewDueSoonDays": 14,
+    "reviewOverdueGraceDays": 0
+  }
+}

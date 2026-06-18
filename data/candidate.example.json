@@ -1,0 +1,17 @@
+{
+  "ticker": "DEMO",
+  "factors": {
+    "financialQuality": 72,
+    "growthDurability": 68,
+    "valuation": 45,
+    "catalystQuality": 65,
+    "evidenceCoverage": 80,
+    "risk": 58
+  },
+  "hardBlocks": [],
+  "notes": [
+    "Illustrative numbers only.",
+    "Scores must be backed by a dated research memo."
+  ]
+}
+

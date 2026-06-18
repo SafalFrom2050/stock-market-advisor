@@ -1,0 +1,21 @@
+{
+  "name": "stock-market-advisor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A provider-neutral, evidence-first stock research and portfolio risk assistant.",
+  "scripts": {
+    "init": "node src/cli.js init",
+    "validate": "node src/cli.js validate",
+    "validate:private": "node src/cli.js validate --holdings data/private/holdings.json --theses data/private/theses.json --market data/private/market-snapshot.json --policy data/private/policy.json",
+    "risk": "node src/cli.js risk",
+    "risk:private": "node src/cli.js risk --holdings data/private/holdings.json --theses data/private/theses.json --market data/private/market-snapshot.json --policy data/private/policy.json",
+    "report": "node src/cli.js report",
+    "report:private": "node src/cli.js report --holdings data/private/holdings.json --theses data/private/theses.json --market data/private/market-snapshot.json --policy data/private/policy.json",
+    "score": "node src/cli.js score",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

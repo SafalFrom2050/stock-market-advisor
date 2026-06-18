@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "asOf": "2026-06-18T08:30:00+09:00",
+  "baseCurrency": "JPY",
+  "fxRates": [
+    {
+      "pair": "USDJPY",
+      "rate": 150,
+      "observedAt": "2026-06-18T08:30:00+09:00",
+      "source": "illustrative-example"
+    }
+  ],
+  "quotes": [
+    {
+      "positionId": "US:CORE-ETF",
+      "ticker": "CORE-ETF",
+      "currency": "USD",
+      "currentPrice": 80,
+      "peakPriceSinceEntry": 83.33,
+      "observedAt": "2026-06-18T08:30:00+09:00",
+      "source": "illustrative-example"
+    },
+    {
+      "positionId": "US:BIO-DEMO",
+      "ticker": "BIO-DEMO",
+      "currency": "USD",
+      "currentPrice": 8.33,
+      "peakPriceSinceEntry": 13.15,
+      "observedAt": "2026-06-18T08:30:00+09:00",
+      "source": "illustrative-example"
+    }
+  ]
+}
+

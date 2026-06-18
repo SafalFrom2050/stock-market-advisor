@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "asOf": "2026-06-18T09:00:00+09:00",
+  "baseCurrency": "JPY",
+  "cashBaseValue": 300000,
+  "positions": [
+    {
+      "id": "US:CORE-ETF",
+      "ticker": "CORE-ETF",
+      "name": "Example diversified core ETF",
+      "market": "US",
+      "sector": "Diversified",
+      "assetType": "ETF",
+      "quantity": 100,
+      "instrumentCurrency": "USD",
+      "costBasisBase": 1100000,
+      "speculative": false,
+      "riskGroups": ["DIVERSIFIED_CORE"]
+    },
+    {
+      "id": "US:BIO-DEMO",
+      "ticker": "BIO-DEMO",
+      "name": "Example pre-revenue biotech",
+      "market": "US",
+      "sector": "Biotechnology",
+      "assetType": "CommonStock",
+      "quantity": 200,
+      "instrumentCurrency": "USD",
+      "costBasisBase": 350000,
+      "speculative": true,
+      "riskGroups": ["SPECULATIVE_BIOTECH", "BINARY_EVENT"]
+    }
+  ]
+}
+
