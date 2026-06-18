@@ -27,6 +27,29 @@ This project is intentionally **not an autonomous trading bot**. It researches c
 
 ## User manual
 
+### How the project works
+
+```mermaid
+flowchart LR
+    A["1. Enter what you own<br/>shares, cash, and cost"] --> B["2. Add today's market snapshot<br/>prices and USD/JPY rate"]
+    B --> C["3. Run the advisor"]
+    D["Your safety rules<br/>position limits and review dates"] --> C
+    E["Why you own each stock<br/>thesis and warning signs"] --> C
+    C --> F["Daily report<br/>portfolio value, risks, and changes"]
+    F --> G{"Anything needs attention?"}
+    G -->|"No"| H["Keep monitoring"]
+    G -->|"Yes"| I["Review the evidence yourself"]
+    I --> J["You decide what to do<br/>in Rakuten Securities"]
+```
+
+In plain language:
+
+1. You privately record what you own and why you own it.
+2. You add current prices and the USD/JPY exchange rate.
+3. The software checks your portfolio against your safety rules.
+4. It creates a daily report showing concentration, losses, stale data, currency exposure, and overdue reviews.
+5. It asks for your attention when something changes. It never buys or sells automatically.
+
 ### Requirements
 
 - Windows PowerShell
